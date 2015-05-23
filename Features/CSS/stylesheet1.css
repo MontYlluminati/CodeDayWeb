@@ -5,9 +5,15 @@ body {
     margin-top:0px;
     margin-left:0px;
 }
-
+a{
+    text-decoration:none;
+    color:#365065;
+}
+a:hover{
+    color:#000000;
+}
 h1, h2, h3 {
-    font-family:Abril Fatface;
+    font-family:Roboto;
 }
 .header{
     position:fixed;
