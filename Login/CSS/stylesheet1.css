@@ -64,13 +64,3 @@ h1, h2, h3 {
     
 
 }
-
-#login{
-    position:Fixed;
-    margin-top:150px;
-    background-color:#fff;
-    border-radius:5px;
-    width:300px;
-    height:500px;
-
-}
