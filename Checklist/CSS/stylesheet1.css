@@ -79,3 +79,7 @@ width:7px;
 background-color: #fff;
 border-left:1px solid #fff;
 }
+
+li {
+    list-style-type:none;
+}
