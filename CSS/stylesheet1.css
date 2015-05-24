@@ -64,7 +64,16 @@ h1, h2, h3 {
 
 }
 
-.content{
-    position:fixed;
-    margin-top:150px;
+::-webkit-scrollbar-thumb{ 
+background-color: #86C8FD;
+border:1px solid #fff;
+height:5px;
+border-radius:5px;
+}
+
+::-webkit-scrollbar { 
+height:5px;
+width:7px; 
+background-color: #fff;
+border-left:1px solid #fff;
 }
