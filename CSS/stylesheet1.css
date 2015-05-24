@@ -81,3 +81,16 @@ width:7px;
 background-color: #fff;
 border-left:1px solid #fff;
 }
+
+img.large {
+width: 750px;
+height: 400px;
+}
+img.medium {
+width: 300px;
+height: 250px;
+}
+img.small {
+width: 100px;
+height: 100px;
+}
