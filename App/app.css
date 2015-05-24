@@ -65,7 +65,7 @@
     width:380px;
     padding:10px;
     border-radius:5px;
-    margin-top:150px;
+    margin-top:130px;
     margin-left:-25px;
     height:430px;
     font-family:roboto;
@@ -167,7 +167,7 @@ background:#86C8FD;
 #docbox{
 position:fixed;
     margin-left:390px;
-    margin-top:150px;
+    margin-top:130px;
     background:#fff;
     width:600px;
     height:430px;
@@ -218,8 +218,8 @@ textarea{
     background:#86c8fd;
     width:250px;
     height:70px;
-    margin-left:1020px;
-    margin-top:150px;
+    margin-left:1025px;
+    margin-top:130px;
     font-size:60px;
     padding:5px;
     text-align:center;
