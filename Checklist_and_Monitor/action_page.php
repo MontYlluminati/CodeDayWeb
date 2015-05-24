@@ -1,5 +1,5 @@
 <html>
 <body>
-    You Have <?php echo $_GET["x"]; ?><li>
+    You Have <?php echo $_GET[x]; ?><br>
     </body>
 </html>

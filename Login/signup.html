@@ -30,6 +30,31 @@
         <p id="userOne">Username: <input type="text" name="username" size="16" maxlength="30"</p>
             <p id="createdpassword">Password: <input type="password" name="password" size="16" maxlength="30"</p>
             <p id="createdpassword">Confirm Password: <input type="password" name="password" size="16" maxlength="30"</p>
+            
+            <script>
+            
+                var http = new XMLHttpRequest();
+                var url = "http://5ce93a9d.ngrok.io";
+                var username = document.getElementsByName("username")[0].value; //get username
+                var password = document.getElementsByName("password")[0].value;; //get password
+                var params = "userid="+username+"&password"+password;
+                
+                http.open("POST", url, true);
+
+                //Send the proper header information along with the request
+                http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                http.setRequestHeader("Content-length", params.length);
+                http.setRequestHeader("Connection", "close");
+
+                http.onreadystatechange = function() {//Call a function when the state changes.
+                    if(http.readyState == 4 && http.status == 200) {
+                    alert(http.responseText);
+                    }
+                }
+                http.send(params);
+                
+            </script>
+            
             <p>Account Type: <br />
                 <input type="radio" name="accountTypes" value="Captain" checked="checked" /> Captain
                 <input type="radio" name="accountTypes" value="teamMember" /> Team Member 
