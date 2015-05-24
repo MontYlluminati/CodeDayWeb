@@ -1,2 +1,5 @@
-var x = document.createElement("INPUT");
-x.setAttribute("type", "checkbox");
+<html>
+<body>
+    You Have <?php echo $_GET["x"]; ?><li>
+    </body>
+</html>
