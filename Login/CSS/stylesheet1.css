@@ -1,13 +1,20 @@
 body {
+    position:fixed !important;
     font-family:Roboto;
     width:100%;
     background-color:#eee;
     margin-top:0px;
     margin-left:0px;
 }
-
+a{
+    text-decoration:none;
+    color:#365065;
+}
+a:hover{
+    color:#000000;
+}
 h1, h2, h3 {
-    font-family:Abril Fatface;
+    font-family:Roboto;
 }
 .header{
     position:fixed;
@@ -55,5 +62,15 @@ h1, h2, h3 {
     background:#fff;
     border:1px solid #86C8FD;
     
+
+}
+
+#login{
+    position:Fixed;
+    margin-top:150px;
+    background-color:#fff;
+    border-radius:5px;
+    width:300px;
+    height:500px;
 
 }
