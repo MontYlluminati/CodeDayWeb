@@ -27,12 +27,12 @@ h1, h2, h3 {
     font-family:Roboto;
     font-weight:normal;
     font-size:60px;
-    background:#86C8FD;
+    background:#2E2E2E;
     color:#fff;
 }
 .homeTabs{
     position:fixed;
-    background-color:#fff;
+    background-color:#424242;
     margin-top:100px;
     margin-left:0px;
     width:100%;
@@ -43,7 +43,7 @@ h1, h2, h3 {
     position:relative;
     display:inline-block;
     border:1px solid #fff;
-    background:#86C8FD;
+    background:#585858;
     margin-left:1%;
     margin-top:7px;
     margin-bottom:7px;
